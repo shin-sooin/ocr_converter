@@ -11,4 +11,4 @@ def home(request):
             form.save()
     form = ImageForm()
     img = Image.objects.all()
-    return render(request, 'myapp/home.html',{'img':img, 'form':form})
+    return render(request, 'myapp/home.html', {'img': img, 'form': form})
